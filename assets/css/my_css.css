@@ -1,0 +1,289 @@
+/* this  adds borders to the entire tabs
+	.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+	}
+
+	.nav-tabs {
+    margin-bottom: 0;
+	}
+	 */ 
+	 
+.search-box {
+	padding: 15px 5px 5px 0px;
+	border:0;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+	border-radius: 0px 5px 5px 5px;
+}
+.typeahead {
+	position:static;
+}
+.main-container {
+	background-color: 
+#DDDDDD;
+	border: 1px solid #BEBCBC;
+	border-radius: 0 0 5px 5px;
+    min-height: 700px;
+	padding-top: 20px;
+	border-radius: 10px;
+}
+.box-bg{
+	background: #feffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #feffff 52%, #a0d8ef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,#feffff), color-stop(100%,#a0d8ef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #feffff 52%,#a0d8ef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #feffff 52%,#a0d8ef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #feffff 52%,#a0d8ef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #feffff 52%,#a0d8ef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+}
+html, body{
+background: #b7deed; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #b7deed 0%, #b7deed 86%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#b7deed), color-stop(86%,#b7deed)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #b7deed 0%,#b7deed 86%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #b7deed 0%,#b7deed 86%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #b7deed 0%,#b7deed 86%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #b7deed 0%,#b7deed 86%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.well {
+	-webkit-box-shadow: 9px 6px 32px 0px rgba(1,5,51,1);
+	-moz-box-shadow: 9px 6px 32px 0px rgba(1,5,51,1);
+	box-shadow: 9px 6px 32px 0px rgba(1,5,51,1);
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 50%;
+}
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 100%;
+}
+.carousel-wrapper {
+	height:170px;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.cust{
+	padding-top: 15px;
+}
+@media (max-width: 767px) {
+	.carousel {
+  height: 40%; /* increases the carousel height so it looks good on phones */
+  }
+  .cust {
+	  padding-top: 45px;
+  }
+}
+
+
+	
+/* rotator image style */	
+#switch{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#switch img{
+    display:none;
+}
+
+#switch img.active{
+    display:block;
+}
+
+#switch2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#switch2 img{
+    display:none;
+}
+
+#switch2 img.active{
+    display:block;
+}
+.ui-widget { height: 200px; overflow-y: scroll; overflow-x: hidden;}
+
+.panel-info{
+	-webkit-box-shadow: 9px 6px 32px 0px rgba(1,5,51,1);
+	-moz-box-shadow: 9px 6px 32px 0px rgba(1,5,51,1);
+	box-shadow: 9px 6px 32px 0px rgba(1,5,51,1);
+}
+#map-canvas {
+	width:100%;
+ 	height:100%;
+}
+.details{
+	margin-left:2%;
+	color:#317eac;
+	
+}
+.active_li{
+background-color: rgb(231, 230, 230);
+}
+.my_box{
+	width:50%;
+		
+}
+.container{
+		opacity:0.95;
+	}
+	.cat_min_desc{
+		padding-top: 6%; 
+		min-height: 83px;
+	}
+	.fix_height{
+		height:50px;
+			
+	}
+	
+
+	#my_footer {
+		background-color:#333;
+		color:#7c7c7c;
+		padding-top: 20px;
+	}
+		
+		/* unvisited link */
+	#my_footer a:link {
+		color:#FFF;
+		text-decoration: none;
+	}
+	
+	/* visited link */
+	#my_footer a:visited {
+		color:#FFF;
+		text-decoration: none;
+	}
+	
+	/* mouse over link */
+	#my_footer a:hover {
+		color:#FFF;
+		text-decoration: none;
+	}
+	
+	/* selected link */
+	#my_footer a:active {
+		color:#FFF;
+		text-decoration: none;
+	}
+	
+	
+
+/*=========================
+  Footer Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
